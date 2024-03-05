@@ -151,3 +151,15 @@ header div{
   a{
     text-decoration: none;
 }
+#boton{
+    background-color: white;
+    height: 30px;
+    width: 70px;
+    border: solid 1px;
+    opacity: 70%;
+}
+#boton:hover{
+    background-color: rgb(214, 214, 214);
+    color: white;
+    transition: 0.4s;
+}
