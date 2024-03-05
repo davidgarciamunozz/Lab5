@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+
+}
+header div{
+    display: flex;
+    /* border: solid 5px blue; */
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+
+
+}
+#banner{
+   /* border: solid; */
+   height: 600px;
+   background-image:linear-gradient(0deg, rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(Asset\ 3google.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   color: white;
+   display: flex;
+   flex-direction:column ;
+   align-items: center;
+   justify-content: center;
+}
+#banner h1{
+    font-size: 60px;
+}
+
+/* #banner img{
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 100%;
+} */
+#info{
+    background-color: rgb(240, 240, 240);
+    height: 600px;
+    /* border: solid violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+#work{
+    width: 90vw;
+    height: 550px;
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+  
+}
+#work h1{
+    font-size: 45px;
+}
+#texto{
+    /* border: solid; */
+    height: 300px;
+    width: 700px;
+    /* margin-left: 5rem;
+    margin-top: 4rem; */
+}
+#productsection{
+    /* border: solid; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#productsection h1{
+    font-size: 45px;
+   
+}
+.opacity{
+    opacity: 60%;
+}
+
+#images{
+    /* border: solid; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sbet{
+    /* border: solid green; */
+    margin: 1rem;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+
+}
+.productos{
+    border: 1px solid;
+    height: 500px;
+    width: 500px;
+}
+.cafes{
+    /* border: solid; */
+    height: 50%;
+}
+#producto1{
+  background-image: url(producto1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#producto2{
+    background-image: url(producto2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #producto3{
+    background-image: url(producto3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .subtext{
+    /* border: solid red; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  .bold{
+    font-weight: 600;
+    font-size: 30px;
+    opacity: 70%;
+  }
+  a{
+    text-decoration: none;
+}
