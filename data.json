@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "name":"Americano",
+        "price":3.99,
+        "image":"https://github.com/davidgarciamunozz/Lab5/blob/main/producto1.png?raw=true",
+        "description":"Typical black coffee with a punch"
+    },
+    {
+        "id":2,
+        "name":"Americano Latte",
+        "price":4.99,
+        "image":"https://github.com/davidgarciamunozz/Lab5/blob/main/producto2.png?raw=true",
+        "description":"Typical Americano Latte with a punch"
+    },
+    {
+        "id":3,
+        "name":"Americano Matcha",
+        "price":5.99,
+        "image":"https://github.com/davidgarciamunozz/Lab5/blob/main/producto3.png?raw=true",
+        "description":"Typical Americano Matcha with a punch"
+    }
+]
