@@ -93,7 +93,7 @@ header div{
 
 #images{
     /* border: solid; */
-    height: 80vh;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,12 +101,13 @@ header div{
 .sbet{
     /* border: solid green; */
     margin: 1rem;
-    height: 90%;
+    height: 20rem;
     width: 90%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap:1rem;
 
 }
 .productos{
@@ -163,4 +164,7 @@ header div{
     color: white;
     transition: 0.4s;
 }
-
+.sbetItem__image{
+    width: 25rem;
+    height: 15rem;
+}
